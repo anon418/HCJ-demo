@@ -1,9 +1,9 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>웹 프로그래밍 데모</title>
+    <title>웹프로그래밍 데모</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -15,59 +15,62 @@ a<!DOCTYPE html>
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="index.html">About</a>
           </li>
           <li>
-            <Contact href="contact.html">Contact</a>
+            <a href="index.html">Contact</a>
+          </li>
+          <li>
+            <a href="index.html">Project</a>
           </li>
         </ul>
       </div>
-
     </nav>
+
     <section class="main">
       <div class="container">
-        <h1>About</h1>
+        <h1>웹 프로그래밍. Web Programming</h1>
 
         <h3>
-          웹 개발자를 위한 온라인 매뉴얼:
+          웹 개발자를 위한 온라인 매뉴얼 :
           <a href="https://www.w3schools.com/">W3schools</a>
         </h3>
 
         <p>
-          웹 프로그래밍의 3가지 기본 요소:
-          <a href="https://www.w3schools.com/html/default.asp">HTML</a>
-          <a href="https://www.w3schools.com/css/default.asp">CSS</a>
-          <a href="https://www.w3schools.com/js/default.asp">Javascript</a>
+          웹 프로그래밍의 3가지 요소:
+          <a href="https://www.w3schools.com/html/default.asp">HTML5</a>
+          <a href="https://www.w3schools.com/css/default.asp" >CSS</a>
+          <a href="https://www.w3schools.com/js/default.asp" >Javascript</a>
         </p>
 
-        <p>현재시간: <span id="time"></span></p>
+        <h3>현재시간 : <span id="time"></span></h3>
 
         <hr />
 
         <p>
           배경색 바꾸기:
           <button onclick="pink()">Pink</button>
-          <button onclick="lightblue()">Lightblue</button>
-          <button onclick="yellow()">Yellow</button>
-          <button onclick="gray()">Gray</button>
-          <button onlcick="reset()">Reset</button>
+          <button onclick="black()">Black</button>
+          <button onclick="red()">Red</button>
+          <button onclick="reset()">Reset</button>
         </p>
 
-        <p>
-          배워봅시다:
-          <button onmouseover="showhtml()"onmouseout="hide()">HTML5</button>
-          <button onomouseover="showcss()"onmouseout="hide()">CSS</button>
-          <button onmouseover="showjavascript()"onmouseout="hide()">Javascript</button>
+          배워봅시다 :
+          <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+          <button onmouseover="showcss()" onmouseout="hide()">CSS3</button>
+          <button onmouseover="showjavascript()" onmouseout="hide()">Javascript</button>
+        </button>
         </p>
-      </div>
-
-      <hr />
-      <div>
-        <img id="fig" height="200px" />
-        <p id="dsec"></p>
+        <hr />
+        <br />
+        <div>
+          <img id="fig" height="200px" />
+          <p id="dsec"></p>
+        </div>
       </div>
     </section>
 
     <script src="main.js"></script>
   </body>
 </html>
+
